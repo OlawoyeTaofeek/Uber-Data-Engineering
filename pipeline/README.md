@@ -49,7 +49,7 @@ We use **NYC TLC Trip Record Data** (Yellow Taxi), which includes:
 - Payment method and rate code
 
 ### 📌 Sources
-- Dataset CSV: [uber_data.csv](https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv)
+- Dataset CSV: [uber_data.csv](https://raw.githubusercontent.com/OlawoyeTaofeek/Uber-Data-Engineering/refs/heads/main/data/uber_data.csv)
 - Data portal: [NYC TLC Trip Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - [Data Dictionary (Yellow Taxi PDF)](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
 

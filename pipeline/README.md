@@ -103,12 +103,12 @@ We extended the analytics pipeline with a full ML pipeline to **predict key metr
 3. Encoded categorical variables
 4. Trained baseline models (RandomForest, XGBoost, LogisticRegression)
 5. Evaluated using MAE, RMSE, R²
-6. Deployed model using Flask API or GCP Vertex AI
+6. Deployed model using Fast API or GCP Vertex AI
 
 ---
 
 ## 📁 Project Structure
-
+```text
 uber-data-project/
 │
 ├── README.md
@@ -141,7 +141,7 @@ uber-data-project/
 │   └── flask_api.py           # Serve model via REST API
 │
 └── mage_ai_project/           # Mage pipeline folder (auto-generated)
-
+```
 
 ## 🤝 Contribution
 You're welcome to fork this project, contribute new features, or extend the ML use cases. We also encourage contributions to Mage.ai:

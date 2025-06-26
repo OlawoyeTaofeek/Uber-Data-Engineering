@@ -29,6 +29,7 @@ We ingest raw data, transform it using BigQuery, visualize insights in Looker St
 
 ### 🧪 ML/DS Libraries
 - **scikit-learn**
+- **XGBoost**
 - **pandas**
 - **NumPy**
 

@@ -17,8 +17,9 @@ We ingest raw data, transform it using BigQuery, visualize insights in Looker St
 ## ⚙️ Tech Stack
 
 ### 💻 Programming
+
 - **Python**
--- **SQL**
+- **SQL**
 
 ### ☁️ Google Cloud Platform
 - **Cloud Storage** – stores raw and processed data

@@ -114,7 +114,10 @@ uber-data-project/
 │
 ├── README.md
 ├── requirements.txt
-├── .env                        # GCP or BigQuery credentials
+├── .env                      # GCP or BigQuery credentials
+|__ .gitignore 
+|__ .architecture.jpg        # Project Architecture
+|__ data_model.jpeg          # Star schema modeling             
 │
 ├── data/                      # Raw or local CSVs
 │   └── uber_data.csv
@@ -127,7 +130,7 @@ uber-data-project/
 │   └── transform_data.py
 │
 ├── analytics/                 # BigQuery SQL queries
-│   └── revenue_by_hour.sql
+│   └── bigquery.sql
 │
 ├── ml_pipeline/               # Machine learning workflows
 │   ├── feature_engineering.py
@@ -139,9 +142,9 @@ uber-data-project/
 ├── dashboard/                 # Looker Studio files or screenshots
 │
 ├── deploy/                    # API or cloud deployment
-│   └── flask_api.py           # Serve model via REST API
+│   └── fast_api.py           # Serve model via REST API
 │
-└── mage_ai_project/           # Mage pipeline folder (auto-generated)
+└── mage_ai_uber_project/           # Mage pipeline folder (auto-generated)
 ```
 
 ## 🤝 Contribution
